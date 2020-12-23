@@ -1,5 +1,5 @@
 <template>
-  <div id="home" class="bg">
+  <div id="home">
     <articles>
       <banner />
     </articles>
@@ -41,11 +41,6 @@
 
 <style scoped>
   
-      .bg {
-        background-image: url('/src/assets/BG-01.png');
-        background-repeat: no-repeat;
-        background-attachment: fixed;  
-        background-size: cover;
-      }
+      
        
 </style>

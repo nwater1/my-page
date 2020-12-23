@@ -1,5 +1,5 @@
 <template>
-  <base-card>
+  <base-card class="custom-color">
   
     <v-img
       :src="require('@/assets/list.png')"
@@ -27,8 +27,10 @@
 </style>
 
 <style scoped>
+
   .custom-color {
   
+        background-color: black;
  
 }
 </style>

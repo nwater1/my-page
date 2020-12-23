@@ -5,7 +5,7 @@
     class="no-pd"
   >
     <base-card
-      color="white"
+      color="black"
       class="pa-0"
     >
       <v-container class="no-pd-1">
@@ -50,5 +50,11 @@
     padding-right: 0;
     padding-bottom: 0;
   }
+
+  .custom-color {
+  
+        background-color: black;
+ 
+}
 </style>
 
