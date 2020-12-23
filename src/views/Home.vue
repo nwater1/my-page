@@ -1,10 +1,13 @@
 <template>
-  <div id="home">
+  <div id="home" class="bg">
     <articles>
       <banner />
     </articles>
-    <intro />
+    
     <linebutton/>
+    <articles>
+      <list />
+    </articles>
     <media/>
     <blog />
     <about />
@@ -29,8 +32,20 @@
       Linebutton: () => import('@/components/home/LineButton'),
       Media: () => import('@/components/home/media'),
       blog: () => import('@/components/home/blog'),
+      list: () => import('@/components/home/list'),
        
         
     },
   }
 </script>
+
+<style scoped>
+  
+      .bg {
+        background-image: url('/src/assets/BG-01.png');
+        background-repeat: no-repeat;
+        background-attachment: fixed;  
+        background-size: cover;
+      }
+       
+</style>

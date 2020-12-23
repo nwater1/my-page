@@ -16,21 +16,14 @@
           >
             
 
-            <v-row class="pa-1">
+            <v-row class="pa-1 justify-center">
              
-              <a href="https://lin.ee/Jqdw87d"><img src="https://scdn.line-apps.com/n/line_add_friends/btn/th.png" alt="เพิ่มเพื่อน" width="85%" height="50px" border="0"></a>
+              <a href="https://lin.ee/Jqdw87d"><img src="https://scdn.line-apps.com/n/line_add_friends/btn/th.png" alt="เพิ่มเพื่อน" width="100%" height="45px" border="0"></a>
                
             </v-row>
           </v-col>
 
-          <v-col
-            
-            md="5"
-            
-          >
-            <p style="margin-bottom: 0px">เพิ่มเพื่อนเพื่อรับการแจ้งเตือน และ ดาวน์โหลดบทสวดมนต์ฟรี</p>
-            <p>คลิกที่ปุ่มนี้ได้เลยครับ</p>
-          </v-col>
+          
         </v-row>
       </v-container>
     </base-card>
