@@ -11,20 +11,20 @@
     >
       
     </v-img>
-    <v-row style="margin-left: 60px; margin-top: 15px" class="justify-center">
-      <base-subheading style="color: white;">share :</base-subheading>
-      <div style="margin-left: 30px;">
+    <v-row style="margin-left: 5px; margin-top: 15px" class="justify-center">
+      <base-subheading style="color: white;">share:</base-subheading>
+      <div style="margin-left: 0px;">
           <vue-goodshare-facebook
     page_url="https://www.facebook.com/dhamma1000000"
     title_social="Facebook"
     has_icon
-    style="margin-left: 30px;"
+    style="margin-left: 5px;"
   ></vue-goodshare-facebook>
   <vue-goodshare-line
     page_url="https://www.facebook.com/dhamma1000000"
     title_social="Line"
     has_icon
-    style="margin-left: 30px;"
+    style="margin-left: 10px;"
   ></vue-goodshare-line>
       </div>
       

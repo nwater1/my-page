@@ -13,11 +13,11 @@
     </articles>
     
     <blog />
-    <about />
+    
 
-    <subscribe />
+    <credit />
 
-    <social />
+    
   </div>
 </template>
 
@@ -37,6 +37,8 @@
       blog: () => import('@/components/home/blog'),
       list: () => import('@/components/home/list'),
       live: () => import('@/components/home/live'),
+      credit: () => import('@/components/home/credit')
+       
        
         
     },

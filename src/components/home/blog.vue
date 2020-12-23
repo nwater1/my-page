@@ -3,9 +3,9 @@
     id="blog"
     tag="section"
   >
-    <base-subheading>ธรรมะประจำวัน</base-subheading>
+    <base-subheading style="color: white; margin-top: 20px;">ธรรมะประจำวัน</base-subheading>
 
-    <p>
+    <p style="color: white;">
       ช่วงปีใหม่นี้ แจกฟรี บทสวดมนต์เสริมสิริมงคล อ่านธรรมะดีๆทุกๆวัน
     </p>
       <vue-horizontal-list :items="items" :options="options">
@@ -96,7 +96,7 @@ import VueHorizontalList from "vue-horizontal-list";
       ],
       options: {
         responsive: [
-          { end: 576, size: 2 },
+          { end: 576, size: 1 },
           { start: 576, end: 768, size: 2 },
           { start: 768, end: 992, size: 3 },
           { size: 4 },

@@ -43,7 +43,7 @@
       items: [
         {
           href: '#!',
-          icon: 'mdi-twitter',
+          icon: 'mdi-youtube',
         },
         {
           href: '#!',
@@ -52,22 +52,6 @@
         {
           href: '#!',
           icon: 'mdi-facebook',
-        },
-        {
-          href: '#!',
-          icon: 'mdi-google-plus',
-        },
-        {
-          href: '#!',
-          icon: 'mdi-reddit',
-        },
-        {
-          href: '#!',
-          icon: 'mdi-discord',
-        },
-        {
-          href: '#!',
-          icon: 'mdi-pinterest',
         },
       ],
     }),

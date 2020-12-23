@@ -6,7 +6,7 @@
     <core-drawer />
 
     <core-view class="bg"/>
-
+    
     <core-footer />
 
     
