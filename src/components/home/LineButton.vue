@@ -51,10 +51,6 @@
     padding-bottom: 0;
   }
 
-  .custom-color {
   
-        background-color: black;
- 
-}
 </style>
 

@@ -5,7 +5,7 @@
     -->
     <core-drawer />
 
-    <core-view />
+    <core-view class="bg"/>
 
     <core-footer />
 
@@ -26,3 +26,19 @@
     },
   }
 </script>
+
+<style scoped>
+  .bg {
+  
+  background-image: url("./assets/BG-01.png");
+
+  
+  
+
+  
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+  
+</style>
