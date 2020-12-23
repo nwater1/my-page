@@ -16,7 +16,7 @@
           >
             
 
-            <v-row class="pa-1 justify-center">
+            <v-row class="pa-1 justify-center rounded-pill">
              
               <a href="https://lin.ee/Jqdw87d"><img src="https://scdn.line-apps.com/n/line_add_friends/btn/th.png" alt="เพิ่มเพื่อน" width="100%" height="45px" border="0"></a>
                
@@ -50,6 +50,14 @@
     padding-right: 0;
     padding-bottom: 0;
   }
+
+  .bg {
+  
+  background-image: url("/assets/BG-01.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
   
 </style>

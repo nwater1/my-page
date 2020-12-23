@@ -4,18 +4,19 @@
     tag="section"
     class="no-pd"
   >
+  <base-subheading style="color: white; text-align: center;">สวดมนต์ข้ามปี ออนไลน์</base-subheading>
     <base-card
      
       class="pa-0"
     >
-      <v-container class="no-pd">
-        <v-row class="justify-center mb-2">
+      <v-container class="no-pd" style="background-color: blue">
+        <v-row class="justify-center mb-2" style="background-color: blue">
             
               <v-img
-              :aspect-ratio="16/9"
-              :src="require('@/assets/media3.png')"
+              
+              :src="require('@/assets/media-live.png')"
               class="grey lighten-2"
-              max-height="400px"
+              max-height="800px"
               max-width="793px"
         >
       
@@ -30,12 +31,12 @@
           
           <div
                 class="ma-0"
-                style="height: 48px; width: 35%; background-color: #6D4C41; text-align: center; color: white; padding: 4px;"
+                style="height: 40px; width: 35%; background-color: blue; text-align: center; color: white; padding: 4px;"
               
 
             
               >
-              <h2>อีก 9 วัน</h2>
+              <h2>share:</h2>
                 
           </div>
         </v-row>

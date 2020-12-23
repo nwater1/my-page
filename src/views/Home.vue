@@ -8,7 +8,10 @@
     <articles>
       <list />
     </articles>
-    <media/>
+    <articles>
+      <live />
+    </articles>
+    
     <blog />
     <about />
 
@@ -33,6 +36,7 @@
       Media: () => import('@/components/home/media'),
       blog: () => import('@/components/home/blog'),
       list: () => import('@/components/home/list'),
+      live: () => import('@/components/home/live'),
        
         
     },

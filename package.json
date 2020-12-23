@@ -7,11 +7,10 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
-    
-    
   },
   "dependencies": {
     "vue": "^2.6.11",
+    "vue-goodshare": "^1.5.1",
     "vue-horizontal-list": "^1.2.1",
     "vue-router": "^3.1.6",
     "vuetify": "^2.2.23",
