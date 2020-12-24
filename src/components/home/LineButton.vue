@@ -16,9 +16,9 @@
           >
             
 
-            <v-row class="pa-1 justify-center rounded-pill">
+            <v-row class="pa-1 justify-center">
              
-              <a href="https://lin.ee/Jqdw87d"><img src="https://scdn.line-apps.com/n/line_add_friends/btn/th.png" alt="เพิ่มเพื่อน" width="100%" height="45px" border="0"></a>
+              <a href="https://lin.ee/Jqdw87d"><img src="https://scdn.line-apps.com/n/line_add_friends/btn/th.png" alt="เพิ่มเพื่อน" max-width="100%" height="45px" border="0"></a>
                
             </v-row>
           </v-col>
