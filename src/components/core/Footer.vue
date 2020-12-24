@@ -42,7 +42,7 @@
     data: () => ({
       items: [
         {
-          href: '#!',
+          href: 'https://www.youtube.com/channel/UC1Bh6OuSHBJnlt3vZd6hsUQ',
           icon: 'mdi-youtube',
         },
         {
@@ -50,8 +50,12 @@
           icon: 'mdi-instagram',
         },
         {
-          href: '#!',
+          href: 'https://www.facebook.com/dhamma1000000',
           icon: 'mdi-facebook',
+        },
+        {
+          href: 'https://lin.ee/Jqdw87d',
+          icon: 'mdi-chat',
         },
       ],
     }),

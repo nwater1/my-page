@@ -3,22 +3,22 @@
     id="blog"
     tag="section"
   >
-    <base-subheading style="color: white; margin-top: 20px;">ธรรมะประจำวัน</base-subheading>
+    <base-subheading style="color: white; margin-top: 15px;">ธรรมะประจำวัน</base-subheading>
 
     <p style="color: white;">
       ช่วงปีใหม่นี้ แจกฟรี บทสวดมนต์เสริมสิริมงคล อ่านธรรมะดีๆทุกๆวัน
     </p>
       <vue-horizontal-list :items="items" :options="options">
       <template v-slot:default="{ item }">
-        <v-card max-width="350px">
+        <v-card max-width="400px">
           <div class="image-container">
-            <img :src="item.image" />
+            <img :src="item.image" aspect-ratio="1.7" cover />
           </div>
 
           <div class="subtitle">
             
           </div>
-          <v-card-actions class="justify-center">
+          <v-card-actions class="justify-center" style="margin-top: 0px;">
             <v-btn color="#6D4C41" width="25%">
               <p style="color: white; margin-bottom: 0">อ่านต่อ</p>
             </v-btn>
@@ -43,13 +43,13 @@ import VueHorizontalList from "vue-horizontal-list";
           title: "Sed non ante non cras amet",
           content:
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas non sagittis leo. Vestibulum sit amet metus nec neque dignissim dapibus.",
-          image: "https://picsum.photos/id/1015/600/600",
+          image: "https://my-page.s3-ap-southeast-1.amazonaws.com/vdo2.png",
         },
         {
           title: "Curabitur sit amet nunc",
           content:
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec id mollis erat. Aliquam erat volutpat. Nunc erat lacus, rhoncus nec.",
-          image: "https://picsum.photos/id/1019/600/600",
+          image: "https://my-page.s3-ap-southeast-1.amazonaws.com/text2.png",
         },
         {
           title: "Proin pharetra, ante metus",
@@ -122,7 +122,7 @@ import VueHorizontalList from "vue-horizontal-list";
   overflow: hidden;
   position: relative;
   width: 100%;
-  padding-top: 60%;
+  padding-top: 125%;
 }
 img {
   object-fit: cover;
